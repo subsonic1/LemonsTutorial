@@ -4193,6 +4193,76 @@ return
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="objects">
+                <SubFolders>
+                  <SpriteFolder Name="torch">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="7" Width="36" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\elemons1\Downloads\torch_zip\torch_0.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>36</ImportHeight>
+                          <ImportWidth>36</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="9" Width="36" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\elemons1\Downloads\torch_zip\torch_1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>36</ImportHeight>
+                          <ImportWidth>36</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="10" Width="36" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\elemons1\Downloads\torch_zip\torch_2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>36</ImportHeight>
+                          <ImportWidth>36</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="11" Width="36" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\elemons1\Downloads\torch_zip\torch_3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>36</ImportHeight>
+                          <ImportWidth>36</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
+              </SpriteFolder>
             </SubFolders>
             <Sprites>
               <Sprite Slot="2000" Width="25" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
@@ -4774,7 +4844,58 @@ return
     </Sprites>
     <Views>
       <ViewFolder Name="Default">
-        <SubFolders />
+        <SubFolders>
+          <ViewFolder Name="objects">
+            <SubFolders>
+              <ViewFolder Name="torch">
+                <SubFolders />
+                <Views>
+                  <View>
+                    <ID>3</ID>
+                    <Name>torch_sconce</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>0</ID>
+                            <Image>7</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>1</ID>
+                            <Image>9</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>2</ID>
+                            <Image>10</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <Delay>0</Delay>
+                            <Flipped>False</Flipped>
+                            <ID>3</ID>
+                            <Image>11</Image>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
+                </Views>
+              </ViewFolder>
+            </SubFolders>
+            <Views />
+          </ViewFolder>
+        </SubFolders>
         <Views>
           <View>
             <ID>1</ID>
