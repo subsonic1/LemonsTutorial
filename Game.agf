@@ -2182,7 +2182,7 @@
           </InventoryItem>
           <InventoryItem>
             <CursorImage>1</CursorImage>
-            <Description xml:space="preserve">A charged double-a battery</Description>
+            <Description xml:space="preserve">Charged battery</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>3</ID>
@@ -2200,7 +2200,7 @@
           </InventoryItem>
           <InventoryItem>
             <CursorImage>3</CursorImage>
-            <Description xml:space="preserve">A functioning flashlight</Description>
+            <Description xml:space="preserve">You fixed it!</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>1</HotspotY>
             <ID>4</ID>
@@ -2218,7 +2218,7 @@
           </InventoryItem>
           <InventoryItem>
             <CursorImage>2</CursorImage>
-            <Description xml:space="preserve">A dead lightbulb. Ignore that it's yellow.</Description>
+            <Description xml:space="preserve">It's dead</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>5</ID>
@@ -2236,7 +2236,7 @@
           </InventoryItem>
           <InventoryItem>
             <CursorImage>9</CursorImage>
-            <Description xml:space="preserve">Chilli Dog off of the floor</Description>
+            <Description xml:space="preserve">It's squishy</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>6</ID>
